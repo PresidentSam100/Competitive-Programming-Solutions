@@ -1,4 +1,5 @@
 # Competitive Programming Solutions
-My implementations of numerous competitive programming contests.
+Several of my implementations of numerous competitive programming contests.
 
+Please contact me at pbcmarsh@gmail.com if you see any mistakes in my code :D
 
