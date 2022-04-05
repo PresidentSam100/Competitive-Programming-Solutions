@@ -29,7 +29,7 @@ int main() {
 	if (odd > 1) {
 		cout << "NO SOLUTION";
 	} else {
-		// Put the odd count letters in the middle.
+		// Put the odd count letters (if any) in the middle.
 		if (odd == 1) {
 			mid.append(arr[ind], ind + 'A');
 		}
