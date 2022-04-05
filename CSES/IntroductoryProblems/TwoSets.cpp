@@ -1,5 +1,6 @@
 // https://cses.fi/problemset/task/1092
 // Two Sets
+// Sam Lu
 
 #include <iostream>
 #include <math.h>
