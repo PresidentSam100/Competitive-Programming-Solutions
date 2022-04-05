@@ -1,5 +1,6 @@
 // https://cses.fi/problemset/task/1755
 // Palindrome Reorder
+// Sam Lu
 
 #include <iostream>
 #include <string>
