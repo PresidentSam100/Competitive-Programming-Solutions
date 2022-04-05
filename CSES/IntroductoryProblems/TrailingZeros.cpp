@@ -1,5 +1,6 @@
 // https://cses.fi/problemset/task/1618
 // Trailing Zeros
+// Sam Lu
 
 #include <iostream>
 #include <math.h>
