@@ -23,15 +23,15 @@ int main() {
 		cin >> s;
 		S[i] = s;
 	}
-    // My implementation of knapsack dynamic programming to solve the problem
-    for (lli a = 0; a < n; a++) {
-        for (lli b = x; b >= 0; b--) {
-            if (H[a] <= b) {
+	// My implementation of knapsack dynamic programming to solve the problem
+	for (lli a = 0; a < n; a++) {
+		for (lli b = x; b >= 0; b--) {
+			if (H[a] <= b) {
 				dp[b] = max(dp[b], dp[b - H[a]] + S[a]);
 			}
-        }
-    }
+		}
+	}
 	// Maximum number of pages
-    cout << dp[x];
+	cout << dp[x];
 	return 0;
 }
